@@ -1,0 +1,103 @@
+.ml1{
+    background-color: #10113d;
+}
+.ml2{
+    min-height:50vh;
+}
+.count{
+    
+    font-weight: bold;
+    color: #3f93c3;
+}
+
+/* Wrapper */
+.terminal-wrapper {
+  display: flex;
+  
+  padding: 60px 20px;
+}
+
+/* Main Card */
+.terminal-card {
+  background: #0f172a;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 700px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(15, 15, 15, 0.6);
+  font-family: "Courier New", monospace;
+  
+}
+
+/* Header */
+.terminal-header {
+  background: #1e293b;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.terminal-title {
+  color: #94a3b8;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+/* Body */
+.terminal-body {
+  padding: 25px;
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-x: auto;
+  
+  justify-content:start;
+}
+
+/* Text Colors */
+.command { color: #38bdf8; }
+.success { color: #22c55e; }
+.info { color: #a78bfa; }
+.link { color: #0ea5e9; text-decoration: underline; }
+
+
+/*card1*/
+.Card1{
+    background-color:white;
+    color: #06295a;
+    
+}
+.Card1:hover {
+    color: #a0c1f0;
+    background-color:rgb(75, 104, 138);
+    
+}
+.para{
+    color: #06295ad2;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+    .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(139, 222, 255, 0.3);
+    }
+  
